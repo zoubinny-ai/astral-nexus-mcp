@@ -23,6 +23,9 @@ test = ["pytest>=8,<10"]
 [project.scripts]
 astral-nexus-mcp = "astral_nexus_mcp.cli:main"
 
+[tool.setuptools]
+license-files = ["LICENSE", "SWISSEPH_LICENSE", "THIRD_PARTY_NOTICES.md"]
+
 [tool.setuptools.packages.find]
 include = ["astral_nexus_mcp*"]
 namespaces = false
