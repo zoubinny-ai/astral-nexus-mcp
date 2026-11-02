@@ -1,0 +1,20 @@
+{
+  "common_adjustment": 0.8,
+  "same_yin_yang_generate": 0.8,
+  "same_yin_yang_control": 1.0,
+  "different_yin_yang_generate": 1.0,
+  "different_yin_yang_control": 0.6,
+  "actor_loss": 0.8,
+  "normal_levels": {
+    "生": {
+      "强生": {"coefficient": 0.7, "actor_delta_ratio": -0.5, "target_delta_ratio": 1.0},
+      "中生": {"coefficient": 0.5, "actor_delta_ratio": -0.3, "target_delta_ratio": 1.0},
+      "弱生": {"coefficient": 0.6, "actor_delta_ratio": -0.8, "target_delta_ratio": 1.0}
+    },
+    "克": {
+      "强克": {"coefficient": 0.7, "actor_delta_ratio": -0.5, "target_delta_ratio": -1.0},
+      "中克": {"coefficient": 0.5, "actor_delta_ratio": -0.6, "target_delta_ratio": -1.0},
+      "弱克": {"coefficient": 0.2, "actor_delta_ratio": -0.8, "target_delta_ratio": -1.0}
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "position": {
+    "SELF": 1.2,
+    "NEIGHBOR": 0.8,
+    "ADJACENT": 0.6,
+    "REMOTE": 0.4
+  },
+  "yin_yang": {
+    "SAME": 1.0,
+    "DIFFERENT": 0.8
+  },
+  "quantity_non_day": {
+    "1": 1.0,
+    "2": 0.65,
+    "3": 0.55,
+    "other": 0.45
+  },
+  "hidden_enhancement_ratio": 0.3
+}

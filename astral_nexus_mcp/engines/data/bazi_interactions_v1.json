@@ -1,0 +1,423 @@
+{
+  "sanhui": {
+    "寅卯辰": {
+      "type": "东方木局",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    },
+    "巳午未": {
+      "type": "南方火局",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "申酉戌": {
+      "type": "西方金局",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    },
+    "亥子丑": {
+      "type": "北方水局",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    }
+  },
+  "sanhe": {
+    "申子辰": {
+      "type": "水局",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    },
+    "亥卯未": {
+      "type": "木局",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    },
+    "寅午戌": {
+      "type": "火局",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "巳酉丑": {
+      "type": "金局",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    }
+  },
+  "liuhe": {
+    "子丑": {
+      "type": "合化土",
+      "possible_element": "土",
+      "target_elements": [],
+      "target_status": null
+    },
+    "寅亥": {
+      "type": "合化木",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    },
+    "卯戌": {
+      "type": "合化火",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "辰酉": {
+      "type": "合化金",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    },
+    "巳申": {
+      "type": "合化水",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    },
+    "午未": {
+      "type": "合化土",
+      "possible_element": "土",
+      "target_elements": [],
+      "target_status": null
+    }
+  },
+  "chong": {
+    "子午": {
+      "type": "水火死战",
+      "possible_element": null,
+      "target_elements": [
+        "水",
+        "火"
+      ],
+      "target_status": "减"
+    },
+    "丑未": {
+      "type": "土库相破",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "寅申": {
+      "type": "金木死斗",
+      "possible_element": null,
+      "target_elements": [
+        "金",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "卯酉": {
+      "type": "金木绝冲",
+      "possible_element": null,
+      "target_elements": [
+        "金",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "辰戌": {
+      "type": "土库相冲",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "巳亥": {
+      "type": "水火搏杀",
+      "possible_element": null,
+      "target_elements": [
+        "水",
+        "火"
+      ],
+      "target_status": "减"
+    }
+  },
+  "sanxing": {
+    "寅巳申": {
+      "type": "无恩之刑",
+      "possible_element": null,
+      "target_elements": [
+        "火",
+        "木",
+        "金"
+      ],
+      "target_status": "减"
+    },
+    "丑未戌": {
+      "type": "恃势之刑",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    }
+  },
+  "banhe": {
+    "寅午": {
+      "type": "生地半合火局",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "申子": {
+      "type": "生地半合水局",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    },
+    "巳酉": {
+      "type": "生地半合金局",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    },
+    "亥卯": {
+      "type": "生地半合木局",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    },
+    "午戌": {
+      "type": "墓地半合火局",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "子辰": {
+      "type": "墓地半合水局",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    },
+    "酉丑": {
+      "type": "墓地半合金局",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    },
+    "卯未": {
+      "type": "墓地半合木局",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    }
+  },
+  "xing": {
+    "子卯": {
+      "type": "无礼之刑",
+      "possible_element": null,
+      "target_elements": [
+        "水",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "寅巳": {
+      "type": "无恩之刑",
+      "possible_element": null,
+      "target_elements": [
+        "火",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "巳申": {
+      "type": "无恩之刑",
+      "possible_element": null,
+      "target_elements": [
+        "火",
+        "金"
+      ],
+      "target_status": "减"
+    },
+    "丑未": {
+      "type": "恃势之刑",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "未戌": {
+      "type": "恃势之刑",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "戌丑": {
+      "type": "恃势之刑",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "辰辰": {
+      "type": "自刑",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "加"
+    },
+    "午午": {
+      "type": "自刑",
+      "possible_element": null,
+      "target_elements": [
+        "火"
+      ],
+      "target_status": "减"
+    },
+    "酉酉": {
+      "type": "自刑",
+      "possible_element": null,
+      "target_elements": [
+        "金"
+      ],
+      "target_status": "减"
+    },
+    "亥亥": {
+      "type": "自刑",
+      "possible_element": null,
+      "target_elements": [
+        "水"
+      ],
+      "target_status": "加"
+    }
+  },
+  "gonghe": {
+    "申辰": {
+      "type": "拱子水局",
+      "possible_element": "水",
+      "target_elements": [],
+      "target_status": null
+    },
+    "寅戌": {
+      "type": "拱午火局",
+      "possible_element": "火",
+      "target_elements": [],
+      "target_status": null
+    },
+    "亥未": {
+      "type": "拱卯木局",
+      "possible_element": "木",
+      "target_elements": [],
+      "target_status": null
+    },
+    "巳丑": {
+      "type": "拱酉金局",
+      "possible_element": "金",
+      "target_elements": [],
+      "target_status": null
+    }
+  },
+  "hai": {
+    "未子": {
+      "type": "势家相害",
+      "possible_element": null,
+      "target_elements": [
+        "水"
+      ],
+      "target_status": "减"
+    },
+    "丑午": {
+      "type": "官鬼相害",
+      "possible_element": null,
+      "target_elements": [
+        "火"
+      ],
+      "target_status": "减"
+    },
+    "巳寅": {
+      "type": "无恩之害",
+      "possible_element": null,
+      "target_elements": [
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "卯辰": {
+      "type": "少凌长相害",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "减"
+    },
+    "亥申": {
+      "type": "争进之害",
+      "possible_element": null,
+      "target_elements": [
+        "金"
+      ],
+      "target_status": "减"
+    },
+    "戌酉": {
+      "type": "嫉妒相害",
+      "possible_element": null,
+      "target_elements": [
+        "金"
+      ],
+      "target_status": "加"
+    }
+  },
+  "po": {
+    "子卯": {
+      "type": "水木相破",
+      "possible_element": null,
+      "target_elements": [
+        "水",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "寅巳": {
+      "type": "木火相破",
+      "possible_element": null,
+      "target_elements": [
+        "火",
+        "木"
+      ],
+      "target_status": "减"
+    },
+    "辰丑": {
+      "type": "土库互破",
+      "possible_element": null,
+      "target_elements": [
+        "土"
+      ],
+      "target_status": "减"
+    },
+    "午未": {
+      "type": "火土相破",
+      "possible_element": null,
+      "target_elements": [
+        "火",
+        "土"
+      ],
+      "target_status": "减"
+    },
+    "申亥": {
+      "type": "金水相破",
+      "possible_element": null,
+      "target_elements": [
+        "金",
+        "水"
+      ],
+      "target_status": "减"
+    }
+  }
+}

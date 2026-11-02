@@ -1,0 +1,2767 @@
+{
+  "version": "bazi-jixiong-lookup-1",
+  "source": "config/core/jixiong.json",
+  "patterns": [
+    {
+      "name": "禄用官杀",
+      "jixiong": "吉",
+      "geju_type": [
+        "建禄格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "官杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "官杀透干, 官杀有根或财星与官杀相生为佳"
+        ],
+        "chengge": {
+          "required": [
+            "正官有力",
+            "正官制比劫"
+          ],
+          "optimal": [
+            "财星生官杀",
+            "独官清贵"
+          ],
+          "avoid": [],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "月禄有财",
+      "jixiong": "吉",
+      "geju_type": [
+        "建禄格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根"
+        ],
+        "position_conditions": [
+          "财星透干, 财星有根或食伤与财星相生为佳"
+        ],
+        "chengge": {
+          "required": [
+            "财星有力"
+          ],
+          "optimal": [
+            "食伤生财星"
+          ],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "比劫肆虐无制",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "强旺"
+        ],
+        "position": [
+          "比劫透干",
+          "比劫有根"
+        ],
+        "position_conditions": [
+          "比劫林立无间隔, 透干有根或得生"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "比劫林力"
+          ],
+          "optimal": [],
+          "huajie": [
+            "官杀制比劫",
+            "财星通关"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官杀制身太过",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "官杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "官杀紧贴日主或旺而克身, 透干有根或得生"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "官杀强旺"
+          ],
+          "optimal": [
+            "官杀紧贴日主"
+          ],
+          "huajie": [
+            "食伤制杀",
+            "印星化杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "阳刃驾杀",
+      "jixiong": "吉",
+      "geju_type": [
+        "阳刃格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "七杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "七杀透干有根或得生"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [
+            "七杀生印星"
+          ],
+          "avoid": [],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "阳刃用官",
+      "jixiong": "吉",
+      "geju_type": [
+        "阳刃格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "正官透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官透干有根或得生"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [
+            "财星生官杀"
+          ],
+          "avoid": [
+            "伤官见官"
+          ],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "刃星无制",
+      "jixiong": "凶",
+      "geju_type": [
+        "阳刃格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "比劫透干",
+          "比劫有根"
+        ],
+        "position_conditions": [
+          "全局不见官杀, 比劫成群"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "比劫林力"
+          ],
+          "optimal": [],
+          "huajie": [
+            "官杀制比劫"
+          ]
+        }
+      }
+    },
+    {
+      "name": "食伤生财（正财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "正财透干",
+          "食伤有根"
+        ],
+        "position_conditions": [
+          "食伤与财星相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "食伤生财星"
+          ],
+          "optimal": [],
+          "avoid": [
+            "枭印夺食"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食伤生财",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "正财透干",
+          "食伤有根"
+        ],
+        "position_conditions": [
+          "食伤与财星相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "食伤生财星"
+          ],
+          "optimal": [],
+          "avoid": [
+            "枭印夺食"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "财旺生官（正财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "官杀透干",
+          "财星有根"
+        ],
+        "position_conditions": [
+          "天干透出官星，相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "正财强旺",
+            "财星生官杀"
+          ],
+          "optimal": [],
+          "avoid": [
+            "伤官见官"
+          ],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "财旺生官",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "官杀透干",
+          "财星有根"
+        ],
+        "position_conditions": [
+          "天干透出官星，相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "正财强旺",
+            "财星生官杀"
+          ],
+          "optimal": [],
+          "avoid": [
+            "伤官见官"
+          ],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "财格佩印（正财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "正财有根",
+          "财印相隔",
+          "印星透干"
+        ],
+        "position_conditions": [
+          "财印相隔为佳"
+        ],
+        "chengge": {
+          "required": [
+            "印星生日主",
+            "正财有力"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "比劫夺财",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "劫财透干"
+        ],
+        "position_conditions": [
+          "比劫透干无制"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "比劫制财星"
+          ],
+          "optimal": [
+            "比劫有根"
+          ],
+          "huajie": [
+            "官杀制比劫",
+            "食伤化比劫"
+          ]
+        }
+      }
+    },
+    {
+      "name": "财多身弱",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根"
+        ],
+        "position_conditions": [
+          "财星过旺"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "财星强旺"
+          ],
+          "optimal": [
+            "印星无力",
+            "比劫无力"
+          ],
+          "huajie": [
+            "比劫助身",
+            "印星生日主"
+          ]
+        }
+      }
+    },
+    {
+      "name": "财生七杀",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "财星有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "财杀相连"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "财星生七杀",
+            "七杀克日主"
+          ],
+          "optimal": [],
+          "huajie": [
+            "食神制杀",
+            "印星化杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "食伤生财（偏财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "偏财透干",
+          "食伤有根"
+        ],
+        "position_conditions": [
+          "食伤与财星相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "食伤生财星"
+          ],
+          "optimal": [],
+          "avoid": [
+            "枭印夺食"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "财旺生官（偏财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "官杀透干"
+        ],
+        "position_conditions": [
+          "天干透出官星，相邻为佳"
+        ],
+        "chengge": {
+          "required": [
+            "偏财强旺",
+            "财星生官杀"
+          ],
+          "optimal": [],
+          "avoid": [
+            "伤官见官"
+          ],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "财格佩印（偏财）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "偏财有根",
+          "印星透干",
+          "财印相隔"
+        ],
+        "position_conditions": [
+          "财印相隔为佳"
+        ],
+        "chengge": {
+          "required": [
+            "印星生日主",
+            "偏财有力"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "官印相生（正印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺"
+        ],
+        "position": [
+          "正印透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "正官生印星"
+          ],
+          "optimal": [
+            "正官有力"
+          ],
+          "avoid": [],
+          "inferior": [
+            "食神混局",
+            "官杀混杂",
+            "财星破印",
+            "伤官见官"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "官印相生",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺"
+        ],
+        "position": [
+          "正印透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "正官生印星"
+          ],
+          "optimal": [
+            "正官有力"
+          ],
+          "avoid": [],
+          "inferior": [
+            "食神混局",
+            "官杀混杂",
+            "财星破印",
+            "伤官见官"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "印赖杀生（正印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "正印透干",
+          "官杀有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "七杀生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "七杀生印星"
+          ],
+          "optimal": [
+            "印星化杀"
+          ],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "印赖杀生",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "正印透干",
+          "官杀有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "七杀生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "七杀生印星"
+          ],
+          "optimal": [
+            "印星化杀"
+          ],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "弃印就财（正印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "正印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根",
+          "正印透干"
+        ],
+        "position_conditions": [
+          "财星旺"
+        ],
+        "chengge": {
+          "required": [
+            "印星强旺",
+            "财星制印星"
+          ],
+          "optimal": [],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "弃印就财",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根",
+          "正印透干"
+        ],
+        "position_conditions": [
+          "财星旺"
+        ],
+        "chengge": {
+          "required": [
+            "印星强旺",
+            "财星制印星"
+          ],
+          "optimal": [],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "贪财坏印",
+      "jixiong": "凶",
+      "geju_type": [
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根",
+          "印星透干"
+        ],
+        "position_conditions": [
+          "财星直接克破印星"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "财星破印"
+          ],
+          "optimal": [],
+          "huajie": [
+            "比劫制财星",
+            "官杀通关"
+          ]
+        }
+      }
+    },
+    {
+      "name": "印旺身枯（正印）",
+      "jixiong": "凶",
+      "geju_type": [
+        "正印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱"
+        ],
+        "position": [
+          "正印透干",
+          "印星有根"
+        ],
+        "position_conditions": [
+          "印星成党结派"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "印星强旺",
+            "比劫无力"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星抑印",
+            "食伤泄秀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "印旺身枯",
+      "jixiong": "凶",
+      "geju_type": [
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱"
+        ],
+        "position": [
+          "正印透干",
+          "印星有根"
+        ],
+        "position_conditions": [
+          "印星成党结派"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "印星强旺",
+            "比劫无力"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星抑印",
+            "食伤泄秀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "印枭混杂",
+      "jixiong": "凶",
+      "geju_type": [
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺"
+        ],
+        "position": [
+          "正印透干",
+          "偏印透干",
+          "印星有根"
+        ],
+        "position_conditions": [
+          "正印与枭神同透天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "印星生比劫"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星抑印"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官印相生（偏印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "偏印透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "正官生印星"
+          ],
+          "optimal": [
+            "正官有力"
+          ],
+          "avoid": [],
+          "inferior": [
+            "食神混局",
+            "官杀混杂",
+            "财星破印",
+            "伤官见官"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "印赖杀生（偏印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "偏印透干",
+          "官杀有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "七杀生旺有力、位置得当"
+        ],
+        "chengge": {
+          "required": [
+            "七杀生印星"
+          ],
+          "optimal": [
+            "印星化杀"
+          ],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "弃印就财（偏印）",
+      "jixiong": "吉",
+      "geju_type": [
+        "偏印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "财星透干",
+          "财星有根",
+          "偏印透干"
+        ],
+        "position_conditions": [
+          "财星旺"
+        ],
+        "chengge": {
+          "required": [
+            "印星强旺",
+            "财星制印星"
+          ],
+          "optimal": [],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食伤泄秀",
+      "jixiong": "吉",
+      "geju_type": [
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "印星有根"
+        ],
+        "position_conditions": [
+          "食伤透干形成流通"
+        ],
+        "chengge": {
+          "required": [
+            "印星强旺",
+            "比劫生食伤"
+          ],
+          "optimal": [
+            "食伤透干"
+          ],
+          "avoid": [
+            "枭印夺食"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "印旺身枯（偏印）",
+      "jixiong": "凶",
+      "geju_type": [
+        "偏印格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱"
+        ],
+        "position": [
+          "偏印透干",
+          "印星有根"
+        ],
+        "position_conditions": [
+          "印星成党结派"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "印星强旺",
+            "比劫无力"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星抑印",
+            "食伤泄秀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "枭印夺食",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "食神透干"
+        ],
+        "position_conditions": [
+          "偏印和食神都透出天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "偏印克食神"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星破印",
+            "比劫助身"
+          ]
+        }
+      }
+    },
+    {
+      "name": "伤官生财",
+      "jixiong": "吉",
+      "geju_type": [
+        "伤官格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "财星透干"
+        ],
+        "position_conditions": [
+          "伤官与财星气势流通"
+        ],
+        "chengge": {
+          "required": [
+            "伤官生财星"
+          ],
+          "optimal": [],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "伤官佩印",
+      "jixiong": "吉",
+      "geju_type": [
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "印星有根",
+          "伤官透干"
+        ],
+        "position_conditions": [
+          "印星能制约伤官"
+        ],
+        "chengge": {
+          "required": [
+            "印星克伤官"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "伤官见官",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "正官透干"
+        ],
+        "position_conditions": [
+          "伤官克正官"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "伤官克正官"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星通关",
+            "印星制伤官"
+          ]
+        }
+      }
+    },
+    {
+      "name": "背禄逐马",
+      "jixiong": "凶",
+      "geju_type": [
+        "伤官格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "比劫有根",
+          "财星无根",
+          "官杀无根"
+        ],
+        "position_conditions": [
+          "财星微弱或无"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "比劫林立",
+            "伤官当令"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星制印星",
+            "官杀制比劫"
+          ]
+        }
+      }
+    },
+    {
+      "name": "食神生财",
+      "jixiong": "吉",
+      "geju_type": [
+        "食神格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "财星透干"
+        ],
+        "position_conditions": [
+          "财星与食神流通"
+        ],
+        "chengge": {
+          "required": [
+            "食神生财星"
+          ],
+          "optimal": [],
+          "avoid": [],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食神制杀",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "极旺"
+        ],
+        "position": [
+          "食伤有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "七杀不过旺，无财星生杀攻身（如果有财，需位置得当）"
+        ],
+        "chengge": {
+          "required": [
+            "食神克七杀"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星通关"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "杀印相生",
+      "jixiong": "吉",
+      "geju_type": [
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "极旺"
+        ],
+        "position": [
+          "官杀有根",
+          "印星透干"
+        ],
+        "position_conditions": [
+          "杀印组合有力"
+        ],
+        "chengge": {
+          "required": [
+            "七杀生印星"
+          ],
+          "optimal": [
+            "印星有根",
+            "食神无力"
+          ],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "枭印夺食（食神格）",
+      "jixiong": "凶",
+      "geju_type": [
+        "食神格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "偏印透干",
+          "食神透干"
+        ],
+        "position_conditions": [
+          "偏印和食神都透出天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "偏印克食神"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星破印",
+            "比劫助身"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官逢财生",
+      "jixiong": "吉",
+      "geju_type": [
+        "化金格",
+        "从杀格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺",
+          "极旺"
+        ],
+        "position": [
+          "财星有根",
+          "正官透干"
+        ],
+        "position_conditions": [
+          "天干见财星"
+        ],
+        "chengge": {
+          "required": [
+            "财星生正官"
+          ],
+          "optimal": [
+            "财星有力"
+          ],
+          "avoid": [
+            "伤官见官"
+          ],
+          "inferior": [
+            "比劫制财星"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "官印双清",
+      "jixiong": "吉",
+      "geju_type": [
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺"
+        ],
+        "position": [
+          "正印透干",
+          "正官透干"
+        ],
+        "position_conditions": [
+          "天干透正印或者正印有力，与官星能量流通"
+        ],
+        "chengge": {
+          "required": [
+            "正官生印星"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "伤官见官（正官）",
+      "jixiong": "凶",
+      "geju_type": [
+        "正官格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "食伤有根",
+          "正官有根"
+        ],
+        "position_conditions": [
+          "天干/地支同时出现伤官与正官"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "伤官克正官"
+          ],
+          "optimal": [],
+          "huajie": [
+            "印星制伤官",
+            "财星通关"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官杀混杂（正官）",
+      "jixiong": "凶",
+      "geju_type": [
+        "正官格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "正官透干",
+          "七杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官与七杀同透天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": [
+            "印星化杀",
+            "食伤制杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官杀混杂",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "正官透干",
+          "七杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "正官与七杀同透天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": [
+            "印星化杀",
+            "食伤制杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "比劫争官",
+      "jixiong": "凶",
+      "geju_type": [
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "强旺"
+        ],
+        "position": [
+          "比劫透干",
+          "比劫有根",
+          "正官透干"
+        ],
+        "position_conditions": [
+          "比劫林立、超过3个以上"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "比劫林力",
+            "官杀制比劫",
+            "官杀无根"
+          ],
+          "optimal": [],
+          "huajie": [
+            "食伤化比劫"
+          ]
+        }
+      }
+    },
+    {
+      "name": "重官无制",
+      "jixiong": "凶",
+      "geju_type": [
+        "正官格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "官杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "官星重复出现、超过4个以上"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "官杀林立"
+          ],
+          "optimal": [],
+          "huajie": [
+            "印星化官"
+          ]
+        }
+      }
+    },
+    {
+      "name": "印绶化杀",
+      "jixiong": "吉",
+      "geju_type": [
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "衰弱",
+          "偏弱",
+          "中和",
+          "极旺"
+        ],
+        "position": [
+          "印星透干",
+          "印星有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "印星最好能和七杀同根透干"
+        ],
+        "chengge": {
+          "required": [
+            "七杀生印星",
+            "印星生比劫"
+          ],
+          "optimal": [],
+          "avoid": [
+            "财星破印"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食神制杀（七杀）",
+      "jixiong": "吉",
+      "geju_type": [
+        "七杀格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "极旺"
+        ],
+        "position": [
+          "食神透干",
+          "食伤有根",
+          "七杀透干"
+        ],
+        "position_conditions": [
+          "食神与七杀形成克制"
+        ],
+        "chengge": {
+          "required": [
+            "食神克七杀"
+          ],
+          "optimal": [],
+          "avoid": [
+            "枭印夺食",
+            "财星通关"
+          ],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "杀重无制",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "从财格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱"
+        ],
+        "position": [
+          "七杀透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "七杀叠见无制化"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "七杀强旺",
+            "七杀无制化"
+          ],
+          "optimal": [],
+          "huajie": [
+            "印星化杀",
+            "食神制杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "制化太过",
+      "jixiong": "凶",
+      "geju_type": [
+        "七杀格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "食神透干",
+          "食伤有根",
+          "印星透干",
+          "印星有根"
+        ],
+        "position_conditions": [
+          "位置正确"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "食伤过度制杀",
+            "印星过度化杀"
+          ],
+          "optimal": [],
+          "huajie": [
+            "财星抑印",
+            "财星通关"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官杀混杂（七杀）",
+      "jixiong": "凶",
+      "geju_type": [
+        "七杀格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和",
+          "偏旺",
+          "强旺"
+        ],
+        "position": [
+          "七杀透干",
+          "正官透干",
+          "官杀有根"
+        ],
+        "position_conditions": [
+          "七杀与正官同透天干"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": [
+            "印星化杀",
+            "食伤制杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "财星滋煞",
+      "jixiong": "凶",
+      "geju_type": [
+        "化土格",
+        "化金格",
+        "化水格",
+        "化木格",
+        "化火格",
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格",
+        "从财格",
+        "从杀格",
+        "从儿格",
+        "从势格",
+        "建禄格",
+        "阳刃格",
+        "正官格",
+        "七杀格",
+        "正印格",
+        "偏印格",
+        "正财格",
+        "偏财格",
+        "伤官格",
+        "食神格",
+        "比肩格",
+        "劫财格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱",
+          "衰弱",
+          "偏弱",
+          "中和"
+        ],
+        "position": [
+          "七杀透干",
+          "官杀有根",
+          "财星有根"
+        ],
+        "position_conditions": [
+          "七杀无制化"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [],
+          "avoid": [],
+          "inferior": []
+        },
+        "poge": {
+          "required": [
+            "财星生七杀",
+            "七杀克日主"
+          ],
+          "optimal": [],
+          "huajie": [
+            "印星化杀",
+            "食伤制杀"
+          ]
+        }
+      }
+    },
+    {
+      "name": "官星护势",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "从财格",
+        "从势格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱"
+        ],
+        "position": [
+          "官杀透干"
+        ],
+        "position_conditions": [
+          "官杀与比劫形成克制关系"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [
+            "官杀清纯"
+          ],
+          "avoid": [
+            "食伤制官杀"
+          ],
+          "inferior": [
+            "官杀混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食伤助势",
+      "jixiong": "吉",
+      "geju_type": [
+        "化土格",
+        "从财格",
+        "从势格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极弱"
+        ],
+        "position": [
+          "食伤透干",
+          "食伤有根"
+        ],
+        "position_conditions": [
+          "食伤与比劫形成转化关系"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [
+            "食伤清纯"
+          ],
+          "avoid": [
+            "枭印夺食"
+          ],
+          "inferior": [
+            "食伤混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    },
+    {
+      "name": "食伤护旺",
+      "jixiong": "吉",
+      "geju_type": [
+        "曲直格",
+        "炎上格",
+        "稼穑格",
+        "从革格",
+        "润下格",
+        "从旺格"
+      ],
+      "conditions": {
+        "rizhu": [
+          "极旺"
+        ],
+        "position": [
+          "食伤透干"
+        ],
+        "position_conditions": [
+          "食伤与官杀形成克制关系"
+        ],
+        "chengge": {
+          "required": [],
+          "optimal": [
+            "食伤清纯"
+          ],
+          "avoid": [
+            "财星通关"
+          ],
+          "inferior": [
+            "食伤混杂"
+          ]
+        },
+        "poge": {
+          "required": [],
+          "optimal": [],
+          "huajie": []
+        }
+      }
+    }
+  ]
+}

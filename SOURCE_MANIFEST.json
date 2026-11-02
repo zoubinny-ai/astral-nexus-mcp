@@ -1,0 +1,419 @@
+{
+  "transformation": "Python import namespace only; calculation source and data otherwise unchanged.",
+  "files": [
+    {
+      "source": "engines/astrology.py",
+      "file": "astral_nexus_mcp/engines/astrology.py",
+      "source_sha256": "be7be779c40f03567386609f4727f33d1cc32e3a23d395c41b529e112543d21d",
+      "sha256": "7b755751699a5a717192139626847d84b8fd17d027599c94ce07a98f941e640c"
+    },
+    {
+      "source": "engines/astrology_options.py",
+      "file": "astral_nexus_mcp/engines/astrology_options.py",
+      "source_sha256": "000c8108ef4a81192880b4cdb8b2cefa3b1643e993de9f2075ed2320c80e4971",
+      "sha256": "000c8108ef4a81192880b4cdb8b2cefa3b1643e993de9f2075ed2320c80e4971"
+    },
+    {
+      "source": "engines/bazi.py",
+      "file": "astral_nexus_mcp/engines/bazi.py",
+      "source_sha256": "6bcd222825057ff98fb67824c384509b09377ff7ebce9fb532b18899167c354b",
+      "sha256": "3c09957fdf698f0f8f5cf3914a6bd9e9c0e89a98405ac62c9996bba71ef7b7f7"
+    },
+    {
+      "source": "engines/bazi_branch_replay.py",
+      "file": "astral_nexus_mcp/engines/bazi_branch_replay.py",
+      "source_sha256": "53cdbdc19c45250a0567733dd7b609560dd22d05097a1f90f539bb3869b27fae",
+      "sha256": "69f3593b4ace4e49af443e8da2d16f2602a411b816aed2e15abe216a1bea3ebf"
+    },
+    {
+      "source": "engines/bazi_environment.py",
+      "file": "astral_nexus_mcp/engines/bazi_environment.py",
+      "source_sha256": "a83d2fd6339ce7b811a1b1850b89619129ffc810f0649fe45b692bd3a884a906",
+      "sha256": "e854004475e2eff5aef9c9bc60a7c5e2b62edbe18c1838e1fb45adfe5f7c47c2"
+    },
+    {
+      "source": "engines/bazi_evidence.py",
+      "file": "astral_nexus_mcp/engines/bazi_evidence.py",
+      "source_sha256": "7f8dbd1a40a14dc36411a11813a7d3d79b706b9231a31924e2e46986b39c9b5a",
+      "sha256": "79e80cec5ae8f20c503220079fbc85fa431b526e16ab4ddb795bdf6a8515a3e2"
+    },
+    {
+      "source": "engines/bazi_five_he.py",
+      "file": "astral_nexus_mcp/engines/bazi_five_he.py",
+      "source_sha256": "e657f3e1d5ba6a8a3d6d030a5f10de3846582c19736cfea55c5687076746667b",
+      "sha256": "428a94e954522c7b8f1118833fe3e24b09a1eea27c8cf864500e9e4c512e6fea"
+    },
+    {
+      "source": "engines/bazi_group_activation.py",
+      "file": "astral_nexus_mcp/engines/bazi_group_activation.py",
+      "source_sha256": "2713790cdf686334ccff09cddcb0ab6cb16a41be3c72c1a8ebe9f133e5ae7f17",
+      "sha256": "6dd761c3e772056f628cb04459154c309e77fc7a64d255b24a9f7daf4c15e01c"
+    },
+    {
+      "source": "engines/bazi_group_branch_replay.py",
+      "file": "astral_nexus_mcp/engines/bazi_group_branch_replay.py",
+      "source_sha256": "5450fb743d55451c557f1dc55bd9288be38a7ac7d600e3dbe6253d4c4c48dfe1",
+      "sha256": "84283fb382f6d2a30782191df946cefd03f77326d80e31bc4a868dc1268ab354"
+    },
+    {
+      "source": "engines/bazi_group_probe.py",
+      "file": "astral_nexus_mcp/engines/bazi_group_probe.py",
+      "source_sha256": "24e3a0cba9ecf89391288bdfdae657e3a029408b8cf2ef7b949dfc79678bbdf7",
+      "sha256": "bf10d5513a23a229865f1b2736fe3ebcf34bd3a38f439ebc5e145b3df2b995a6"
+    },
+    {
+      "source": "engines/bazi_group_reverse_pass.py",
+      "file": "astral_nexus_mcp/engines/bazi_group_reverse_pass.py",
+      "source_sha256": "fc477a3ab89aac07b536713dfcd0f24973908848c1eb1dff9d67a00facf8b388",
+      "sha256": "5b5b92c781278edba4ed7642110e49c64e4d3a6356c4c6af8647a11629322f6c"
+    },
+    {
+      "source": "engines/bazi_hidden_activation.py",
+      "file": "astral_nexus_mcp/engines/bazi_hidden_activation.py",
+      "source_sha256": "b1e147d73f7c520c55abe6fb3117ad6b19cbb79b3e8343761d3f3784acec5b51",
+      "sha256": "69c8549d3ff9c27a73f030088abb8bc48588711b46ea7ef3f7f15923eae11561"
+    },
+    {
+      "source": "engines/bazi_interactions.py",
+      "file": "astral_nexus_mcp/engines/bazi_interactions.py",
+      "source_sha256": "7dcb3058a79c7cd88aaa06b7439672c6a8406a8954f765d4a9b1645392f76a0a",
+      "sha256": "18ee105267939fd71620654e9cebf00a25c2bae0561ffdd4af9f130b1248c1a0"
+    },
+    {
+      "source": "engines/bazi_jixiong_predicates.py",
+      "file": "astral_nexus_mcp/engines/bazi_jixiong_predicates.py",
+      "source_sha256": "13bab13f767166b195c8e885abde75fd02436865c392c059bbeb3fed05835b94",
+      "sha256": "4c4830590098443121640d642fc3c0fa93e36fa819bbc6a1ea3bd9023a7194a8"
+    },
+    {
+      "source": "engines/bazi_kongwang.py",
+      "file": "astral_nexus_mcp/engines/bazi_kongwang.py",
+      "source_sha256": "958a9f23a132bee4229dd0d322ac8c5932a1e8cff99f44e69e4499aa325a6d3a",
+      "sha256": "b682f2f5e990dfe9f93575af1efd87729390df55038e4d9bea5f1464dbd90a91"
+    },
+    {
+      "source": "engines/bazi_life_stages.py",
+      "file": "astral_nexus_mcp/engines/bazi_life_stages.py",
+      "source_sha256": "bea8bc80b566d99f0043dd371dc259707709a27f1006019b79e47a73158cfeb1",
+      "sha256": "a49eb12a0108a3db662ff23d7cb8b826d24e5bd45a10ad9d2c07886279b396d2"
+    },
+    {
+      "source": "engines/bazi_luck.py",
+      "file": "astral_nexus_mcp/engines/bazi_luck.py",
+      "source_sha256": "851fbb7314545301284aaba7c3df10441db7bb40b45c0b3a013d186421db73f0",
+      "sha256": "a363e4b17a036a5375f710ecf66eee5b445b9f33616d1d50616e112d7adaa83a"
+    },
+    {
+      "source": "engines/bazi_luck_interactions.py",
+      "file": "astral_nexus_mcp/engines/bazi_luck_interactions.py",
+      "source_sha256": "ca7222f0c36eca35d7db7e8bb9144291c72e5fec03bf24e409a391ff037ea3f5",
+      "sha256": "edda243de76e3dc5654cc86eaf634fdfd743526fc913e6390064b8a3d07e199c"
+    },
+    {
+      "source": "engines/bazi_month_replay.py",
+      "file": "astral_nexus_mcp/engines/bazi_month_replay.py",
+      "source_sha256": "9a86b7c4456b202f4df2ee99627c472715aa562ec826c34f22f9c614057b326d",
+      "sha256": "92bce6fd83927ac47dfdcda9bdf7b86bdfa5a316a5c8b50bfe33911d483e2dcc"
+    },
+    {
+      "source": "engines/bazi_options.py",
+      "file": "astral_nexus_mcp/engines/bazi_options.py",
+      "source_sha256": "5bdde3767fa6e27f36847f7b468cfa5550fafa5d8fe1b15b7027b9b42dd71609",
+      "sha256": "5bdde3767fa6e27f36847f7b468cfa5550fafa5d8fe1b15b7027b9b42dd71609"
+    },
+    {
+      "source": "engines/bazi_path_outcomes.py",
+      "file": "astral_nexus_mcp/engines/bazi_path_outcomes.py",
+      "source_sha256": "b5189b1d9f634f91de9208d399db22d2e2a92a97e063b74700727ecd7145b9bf",
+      "sha256": "b669bd2b1630a8c3c5b3cb129563cf65b991fb566e57c923732b0e909b6cfe7a"
+    },
+    {
+      "source": "engines/bazi_pattern_review.py",
+      "file": "astral_nexus_mcp/engines/bazi_pattern_review.py",
+      "source_sha256": "d5839f808ded818253208d5930bef9e48217ecfeba453693640c38f181e0b9f8",
+      "sha256": "1ed67affe592e34fcc7459d6746d7db8e17434d56c558ce9000d2a9f562934bd"
+    },
+    {
+      "source": "engines/bazi_pattern_selection.py",
+      "file": "astral_nexus_mcp/engines/bazi_pattern_selection.py",
+      "source_sha256": "05ff1ea8096dfe8766680a711001aea53116f73e2f468bbd88a31f226a80aabb",
+      "sha256": "1896406f04284e816d704022d4c66a7bbb1f5aeda45f74000bc9368a2d4c7ab7"
+    },
+    {
+      "source": "engines/bazi_shengke_allocation_ledger.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_allocation_ledger.py",
+      "source_sha256": "7ea78738c8f13c71c04a76b6275be8e083ae2efee8fb9a1d7268f69cb5974713",
+      "sha256": "78a67568fc8448ffe932ed34cf58f4271d6c933236ead592f69ca814900f1255"
+    },
+    {
+      "source": "engines/bazi_shengke_allocation_plan.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_allocation_plan.py",
+      "source_sha256": "c60f2ec4ba6ea5b7016fe3593628b2dc93ab22e2b9b36b2dac8ce3310763b68a",
+      "sha256": "3ce601445e960549dfac2ce376b06bbd21c9213fa8480a00662d94044d287447"
+    },
+    {
+      "source": "engines/bazi_shengke_first_pass.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_first_pass.py",
+      "source_sha256": "24e874e8bd9832d7ae253d418253436a36793da3b7a9385a59c07cd695c65589",
+      "sha256": "00eea9da554e3effbdf21da35c2f6800e1b99c9087e4c0bd1288b51781ff5ce7"
+    },
+    {
+      "source": "engines/bazi_shengke_first_rules.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_first_rules.py",
+      "source_sha256": "8fc300156c556e3a5637819b71a562b0a18e80d7ccd53f6f65d8c422f61604c1",
+      "sha256": "499f6ed283069e674e6d72a51c0d951dbd0749fead6f6ff1ad325b4599b3ad7b"
+    },
+    {
+      "source": "engines/bazi_shengke_hehua_event_audit.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_hehua_event_audit.py",
+      "source_sha256": "3c248e657cc657fd76a6f114344092a5e79fea4aeb0c23fdf294328e47513bdb",
+      "sha256": "81706c9851b81571ccb276f0b8a163dab8e34c92400fb3317a3e71bd2fa87e10"
+    },
+    {
+      "source": "engines/bazi_shengke_priority_inputs.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_priority_inputs.py",
+      "source_sha256": "8fffd040c2e73f7b1ef7eb7ac6f3eb6a00488fb7a6ef528f1833c9e5214b2fa9",
+      "sha256": "f47aca23eec1d9508fcf617e68add0891359cd5e0ef519f6395e1284bed1dc4c"
+    },
+    {
+      "source": "engines/bazi_shengke_priority_review.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_priority_review.py",
+      "source_sha256": "3d4372e6552e9bbecf4ea0ad1dc66c7ed87aa58d054799790057847ae87a97fd",
+      "sha256": "9498d8f705071e851b2c4fbcd545ea06f5ddb308ae9b1adcfbf5ae7235d00940"
+    },
+    {
+      "source": "engines/bazi_shengke_probe.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_probe.py",
+      "source_sha256": "34209df9205839dda0ca2b286ade74c2ea7df87965adb8e69631f630be810a3d",
+      "sha256": "fc738249981fbc71d7e7274cab0d115b022ac33a2968bd6deac256a9f4bc6ca8"
+    },
+    {
+      "source": "engines/bazi_shengke_reverse_pass.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_reverse_pass.py",
+      "source_sha256": "83079648577420b76fb5226dfee6e3ac2364b60ca7dd26bf20032183d24a6de4",
+      "sha256": "54392b6c80827db6b67f63d0c4b5ff2f32016725795cb3b3df77c30f893dea2d"
+    },
+    {
+      "source": "engines/bazi_shengke_reverse_probe.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_reverse_probe.py",
+      "source_sha256": "1009665127c8bb2c4ad6cf2d2b97c192cae61aa4d1c8a18dd7572d73d5d11b86",
+      "sha256": "5526ea79e4b8b2da712f72e941c37a9cdf7c0cc66e9fc41df00cc5c8df38cbaf"
+    },
+    {
+      "source": "engines/bazi_shengke_reverse_rules.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_reverse_rules.py",
+      "source_sha256": "b4df74a4a00d46a0f12d27bffc3895e243d4fbd84911d74d747678bdb4996e40",
+      "sha256": "387f0efb7d8668fbdf0f75be03101f3ed4a35f717b4fc073a79164729a6b9c1f"
+    },
+    {
+      "source": "engines/bazi_shengke_tongguan_audit.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_tongguan_audit.py",
+      "source_sha256": "d0573cac7ab5133caabb01c285a4fa04e2fae1459d76ad885f2ec6cb336bc751",
+      "sha256": "722228427f2a3d50eb59c492a3532ebfe8b670ab38549aa746e179fa6f372040"
+    },
+    {
+      "source": "engines/bazi_shengke_visible_pass.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_visible_pass.py",
+      "source_sha256": "c0e8624ef64b346a1b4abd0eb3e1294d9380b97c048b75e72f6ca7ad42364104",
+      "sha256": "02167fe42a6b89226155bd4159a7ae89ff35073f23e5e648509bc906360eafe4"
+    },
+    {
+      "source": "engines/bazi_shengke_visible_probe.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_visible_probe.py",
+      "source_sha256": "de0a39ebd0462216be5a038d1226a65bd366b7d943c10f1897e81ecc234dcc85",
+      "sha256": "e5550c1fa8b69bb4ef3e0ae2583f8cab81eaaa23047b2be6c032346ae2494731"
+    },
+    {
+      "source": "engines/bazi_shengke_visible_rules.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_visible_rules.py",
+      "source_sha256": "354c1a22cf7b4478901103674a2a176bd02f7293d6d321c9d8fc6a51c3665083",
+      "sha256": "f4be7b79a67396b3a68ba6e622824defcc69f55b956d992a4db337e85fdf7da7"
+    },
+    {
+      "source": "engines/bazi_shengke_zhihua_audit.py",
+      "file": "astral_nexus_mcp/engines/bazi_shengke_zhihua_audit.py",
+      "source_sha256": "68a5404f69e70f002550290217860479fad8210c77587da4981d15eac1c76a75",
+      "sha256": "328e9f7edfbe206104c2a1d64240c45109a8e97a025ec5f9ca1a3356cf3b2939"
+    },
+    {
+      "source": "engines/bazi_strength.py",
+      "file": "astral_nexus_mcp/engines/bazi_strength.py",
+      "source_sha256": "baa968d6ffff4e307015ea1f5e98ed464f19ff54570a10990abd4d31a82cea53",
+      "sha256": "dd92ef12487ad8199a65e5420a6c82d544ef1a21a8a7cafe30cebb5293896d1b"
+    },
+    {
+      "source": "engines/bazi_tonggen_replay.py",
+      "file": "astral_nexus_mcp/engines/bazi_tonggen_replay.py",
+      "source_sha256": "895e8e61c218d9b7772b013f553d6e3c6369510cb1545d7b5eb2405a579137e4",
+      "sha256": "3cd1821aaea5c7508ab6978332d33b9ad4daf3099d9b36a9659b8d02c4485e1c"
+    },
+    {
+      "source": "engines/bazi_wangshuai_inputs.py",
+      "file": "astral_nexus_mcp/engines/bazi_wangshuai_inputs.py",
+      "source_sha256": "a5290bd905cb17aa79f27c1c532511b0667ee975934a3615a0a2971201c24c0e",
+      "sha256": "a5a2b3da2ec0b9196906e37fd485e055bbf3ab7d40d41c709d011fb4309cd991"
+    },
+    {
+      "source": "engines/birth_time.py",
+      "file": "astral_nexus_mcp/engines/birth_time.py",
+      "source_sha256": "1de5d26b0548a5d82f8d8f0d3b692a90b17fdd58679aec9bbd9d0da039e86849",
+      "sha256": "1de5d26b0548a5d82f8d8f0d3b692a90b17fdd58679aec9bbd9d0da039e86849"
+    },
+    {
+      "source": "engines/swiss.py",
+      "file": "astral_nexus_mcp/engines/swiss.py",
+      "source_sha256": "548cc90a7b910754085b84fc1572f8c573f795d02b021335d32c247cb4b17298",
+      "sha256": "548cc90a7b910754085b84fc1572f8c573f795d02b021335d32c247cb4b17298"
+    },
+    {
+      "source": "engines/ziwei_pillars.py",
+      "file": "astral_nexus_mcp/engines/ziwei_pillars.py",
+      "source_sha256": "a005fd03db6a6feeeabdfcc70a7e35b8dfd39b46bbb01931fdf02aedf3665216",
+      "sha256": "023a23851abe48bfe96c9cdb2d25e454b7b4f5cdbeb06b73699c9321696f0dfe"
+    },
+    {
+      "source": "engines/data/bazi_environment_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_environment_v1.json",
+      "source_sha256": "7ded5a8f435b11774b2a90e6cc2a8bf8ad4cc792d5600a370db1a2f8a1b1fd01",
+      "sha256": "7ded5a8f435b11774b2a90e6cc2a8bf8ad4cc792d5600a370db1a2f8a1b1fd01"
+    },
+    {
+      "source": "engines/data/bazi_five_he_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_five_he_v1.json",
+      "source_sha256": "185774e5b48c115795bc1a5a1957f41364a9156be541e6feb73b857002e1e982",
+      "sha256": "185774e5b48c115795bc1a5a1957f41364a9156be541e6feb73b857002e1e982"
+    },
+    {
+      "source": "engines/data/bazi_group_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_group_v1.json",
+      "source_sha256": "bad323865c78cd9b1fc370dd532b349abc9ae125744148cd23e4856267dc4485",
+      "sha256": "bad323865c78cd9b1fc370dd532b349abc9ae125744148cd23e4856267dc4485"
+    },
+    {
+      "source": "engines/data/bazi_interactions_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_interactions_v1.json",
+      "source_sha256": "a0a0c9fa7b7f08b950b4dfad7242514c5a8877615a3fe77693ec98b48acd604e",
+      "sha256": "a0a0c9fa7b7f08b950b4dfad7242514c5a8877615a3fe77693ec98b48acd604e"
+    },
+    {
+      "source": "engines/data/bazi_jixiong_relations_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_jixiong_relations_v1.json",
+      "source_sha256": "a028ac513a408b3d3b07e2711d4925d54d6cad70acd866f63a36389e15fdb969",
+      "sha256": "a028ac513a408b3d3b07e2711d4925d54d6cad70acd866f63a36389e15fdb969"
+    },
+    {
+      "source": "engines/data/bazi_jixiong_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_jixiong_v1.json",
+      "source_sha256": "bedbe5ba502ae219f91aabc925ee745652c82a6a73c50f60791b0e4bdc27745b",
+      "sha256": "bedbe5ba502ae219f91aabc925ee745652c82a6a73c50f60791b0e4bdc27745b"
+    },
+    {
+      "source": "engines/data/bazi_kongwang_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_kongwang_v1.json",
+      "source_sha256": "9c5e466362459002c87ed49f954cd0e5115fa396dcfc27a1ca33e8ec47c446af",
+      "sha256": "9c5e466362459002c87ed49f954cd0e5115fa396dcfc27a1ca33e8ec47c446af"
+    },
+    {
+      "source": "engines/data/bazi_life_stages_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_life_stages_v1.json",
+      "source_sha256": "f3dd9eda282d3850f294ea3dd4798f23f5196d50282477b065ab6164f055b040",
+      "sha256": "f3dd9eda282d3850f294ea3dd4798f23f5196d50282477b065ab6164f055b040"
+    },
+    {
+      "source": "engines/data/bazi_month_status_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_month_status_v1.json",
+      "source_sha256": "e1cd4e1fe140bfcfff0cc6205749cb1e38dc118c99e39c92e219784203fe3999",
+      "sha256": "e1cd4e1fe140bfcfff0cc6205749cb1e38dc118c99e39c92e219784203fe3999"
+    },
+    {
+      "source": "engines/data/bazi_ordinary_pattern_roles_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_ordinary_pattern_roles_v1.json",
+      "source_sha256": "7c32316b1db01df1fede2f4962d7f217b650bde049594659b49672fe0b97c388",
+      "sha256": "7c32316b1db01df1fede2f4962d7f217b650bde049594659b49672fe0b97c388"
+    },
+    {
+      "source": "engines/data/bazi_pair_effects_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_pair_effects_v1.json",
+      "source_sha256": "4724de52772613c39571d834007cd8007785de4d0c9da1aa72b48e9ffb912360",
+      "sha256": "4724de52772613c39571d834007cd8007785de4d0c9da1aa72b48e9ffb912360"
+    },
+    {
+      "source": "engines/data/bazi_pattern_roles_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_pattern_roles_v1.json",
+      "source_sha256": "af93c0a51c9c83f231e1bc7e077e1d968c01cfd9af56a9e5ca60c49f495e1a78",
+      "sha256": "af93c0a51c9c83f231e1bc7e077e1d968c01cfd9af56a9e5ca60c49f495e1a78"
+    },
+    {
+      "source": "engines/data/bazi_sanxing_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_sanxing_v1.json",
+      "source_sha256": "18c8d1942371a8111f6dfbd3d57f24098226db1fcd1fc404fb1e4b2482f37004",
+      "sha256": "18c8d1942371a8111f6dfbd3d57f24098226db1fcd1fc404fb1e4b2482f37004"
+    },
+    {
+      "source": "engines/data/bazi_scoring_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_scoring_v1.json",
+      "source_sha256": "69cd550da91de56e907c44c7baa77e26a47d27a77b9f3f1e9eb5366b324f360f",
+      "sha256": "69cd550da91de56e907c44c7baa77e26a47d27a77b9f3f1e9eb5366b324f360f"
+    },
+    {
+      "source": "engines/data/bazi_shengke_first_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_shengke_first_v1.json",
+      "source_sha256": "8764d8ba8e2d17e1b86ad891acaf9cde419c053c115d0e78b928d097ffd72632",
+      "sha256": "8764d8ba8e2d17e1b86ad891acaf9cde419c053c115d0e78b928d097ffd72632"
+    },
+    {
+      "source": "engines/data/bazi_shengke_reverse_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_shengke_reverse_v1.json",
+      "source_sha256": "a63a98addac13ee707ef2a5f13be690ab3fb41256b3be2830e6e7cd2fc6dfb9b",
+      "sha256": "a63a98addac13ee707ef2a5f13be690ab3fb41256b3be2830e6e7cd2fc6dfb9b"
+    },
+    {
+      "source": "engines/data/bazi_tiaohou_corrections_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_tiaohou_corrections_v1.json",
+      "source_sha256": "61c5df55eac45d89b443602570b62a451afbd82a316af0790c6114fe8a9aa70e",
+      "sha256": "61c5df55eac45d89b443602570b62a451afbd82a316af0790c6114fe8a9aa70e"
+    },
+    {
+      "source": "engines/data/bazi_tiaohou_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_tiaohou_v1.json",
+      "source_sha256": "577f81e98301e635a3966019e439a79d0c3346a019f7e1da72fe8fa93efe70c0",
+      "sha256": "577f81e98301e635a3966019e439a79d0c3346a019f7e1da72fe8fa93efe70c0"
+    },
+    {
+      "source": "engines/data/bazi_tonggen_v1.json",
+      "file": "astral_nexus_mcp/engines/data/bazi_tonggen_v1.json",
+      "source_sha256": "ddd321f61a30017c9f80c258a2f1d3a8f557c0b02db3e678d8e519402e035d20",
+      "sha256": "ddd321f61a30017c9f80c258a2f1d3a8f557c0b02db3e678d8e519402e035d20"
+    },
+    {
+      "source": "integrations/astral_mcp/tools.py",
+      "file": "astral_nexus_mcp/tools.py",
+      "source_sha256": "a05eb1977f182b785da9ec159c217ec6a2c8e555fb140716adaad53201285930",
+      "sha256": "4fc208cbfa44a6ddf3795d79d98d2202a1338481110e25cfe897d6d5e7ea8d3c"
+    },
+    {
+      "source": "integrations/astral_mcp/server.py",
+      "file": "astral_nexus_mcp/server.py",
+      "source_sha256": "10e75cccc622a818bd44fa85773d9eb493599413ceaa0dcd857334a593ffee65",
+      "sha256": "aa09fb0f2961f17ed288a67b04602aa646af9fe23ffe17ddc3528d4652b43da3"
+    },
+    {
+      "source": "swisseph/ephe/seas_18.se1",
+      "file": "astral_nexus_mcp/swisseph/ephe/seas_18.se1",
+      "source_sha256": "5fd9c2aa1654e37c09a6aeb558076e795409b7dc4bd948ebc0faa7d4a7686b5b",
+      "sha256": "5fd9c2aa1654e37c09a6aeb558076e795409b7dc4bd948ebc0faa7d4a7686b5b"
+    },
+    {
+      "source": "swisseph/ephe/semo_18.se1",
+      "file": "astral_nexus_mcp/swisseph/ephe/semo_18.se1",
+      "source_sha256": "ecfa54dbf5bc0b5a9bc3e04ed28629a821e98625eacae38f4070593bba0e2980",
+      "sha256": "ecfa54dbf5bc0b5a9bc3e04ed28629a821e98625eacae38f4070593bba0e2980"
+    },
+    {
+      "source": "swisseph/ephe/sepl_18.se1",
+      "file": "astral_nexus_mcp/swisseph/ephe/sepl_18.se1",
+      "source_sha256": "0b7e416e3c1be9e6a0dd1d711dae7f7685793a0e7df13f76363a493dc27b6ea1",
+      "sha256": "0b7e416e3c1be9e6a0dd1d711dae7f7685793a0e7df13f76363a493dc27b6ea1"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "astral-nexus-mcp"
+version = "0.1.0"
+description = "Standalone astrology and Bazi calculation tools for MCP clients"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+dependencies = [
+  "mcp==2.3.0",
+  "pydantic>=2.12,<3",
+  "pyswisseph==2.10.3.2",
+  "lunar-python==1.4.8",
+  "tzdata>=2024.1; sys_platform == 'win32'",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[project.scripts]
+astral-nexus-mcp = "astral_nexus_mcp.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["astral_nexus_mcp*"]
+namespaces = false
+
+[tool.setuptools.package-data]
+astral_nexus_mcp = ["engines/data/*.json", "swisseph/ephe/*.se1"]

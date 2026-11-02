@@ -1,0 +1,746 @@
+{
+  "version": "bazi-tiaohou-corrections-1",
+  "source": "config/mingju/geju_tiaohou.json",
+  "corrections": [
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "卯",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "子",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "甲",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "乙",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "乙",
+      "month_branch": "子",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "乙",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "乙",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "乙",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从旺格",
+      "day_stem": "戊",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 4,
+      "source_label": "极强适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "丁",
+      "month_branch": "申",
+      "type": "寒湿调候",
+      "slot": 2,
+      "source_label": "调极候不足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "戊",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "己",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 3,
+      "source_label": "稍有极不足",
+      "normalized_label": "稍有不足",
+      "threshold": 35
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "己",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极调候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "庚",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从财格",
+      "day_stem": "癸",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "极调候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "丙",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "戊",
+      "month_branch": "卯",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "庚",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "壬",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "调候适中极",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "癸",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "极调候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "从杀格",
+      "day_stem": "癸",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 2,
+      "source_label": "调极候不足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "从势格",
+      "day_stem": "辛",
+      "month_branch": "子",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极弱",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "从势格",
+      "day_stem": "壬",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极弱",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正官格",
+      "day_stem": "庚",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "极需适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "正官格",
+      "day_stem": "壬",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正官格",
+      "day_stem": "癸",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "调极适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "七杀格",
+      "day_stem": "庚",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "极需适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "七杀格",
+      "day_stem": "壬",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "七杀格",
+      "day_stem": "癸",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 4,
+      "source_label": "调极适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "丙",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "己",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "己",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "己",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "己",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "庚",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "庚",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "庚",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "庚",
+      "month_branch": "申",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "庚",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "辛",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "辛",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正印格",
+      "day_stem": "辛",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "丙",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "己",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "己",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "己",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "己",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "庚",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "庚",
+      "month_branch": "戌",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "庚",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "庚",
+      "month_branch": "申",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "庚",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "辛",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "辛",
+      "month_branch": "未",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏印格",
+      "day_stem": "辛",
+      "month_branch": "午",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "甲",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 2,
+      "source_label": "极候不足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "甲",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 4,
+      "source_label": "极候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "甲",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "戊",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 4,
+      "source_label": "极候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "戊",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "壬",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 2,
+      "source_label": "调候极足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "正财格",
+      "day_stem": "壬",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "甲",
+      "month_branch": "辰",
+      "type": "寒湿调候",
+      "slot": 4,
+      "source_label": "极候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "甲",
+      "month_branch": "巳",
+      "type": "暖燥调候",
+      "slot": 5,
+      "source_label": "调候过极",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "甲",
+      "month_branch": "丑",
+      "type": "寒湿调候",
+      "slot": 2,
+      "source_label": "极候不足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "戊",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 4,
+      "source_label": "极候适中",
+      "normalized_label": "调候适中",
+      "threshold": 55
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "戊",
+      "month_branch": "亥",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "调候极强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "壬",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 2,
+      "source_label": "调候极足",
+      "normalized_label": "调候不足",
+      "threshold": 25
+    },
+    {
+      "pattern": "偏财格",
+      "day_stem": "壬",
+      "month_branch": "寅",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "食神格",
+      "day_stem": "戊",
+      "month_branch": "酉",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    },
+    {
+      "pattern": "伤官格",
+      "day_stem": "戊",
+      "month_branch": "酉",
+      "type": "寒湿调候",
+      "slot": 5,
+      "source_label": "极候过强",
+      "normalized_label": "调候过强",
+      "threshold": 100
+    }
+  ]
+}
